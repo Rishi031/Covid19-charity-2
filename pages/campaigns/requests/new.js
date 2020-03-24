@@ -30,6 +30,7 @@ class RequestNew extends Component {
 
     try {
       const accounts = await web3.eth.getAccounts();
+      await ethereum.enable();
       await campaign.methods
         .createRequest(description, web3.utils.toWei(value, 'ether'), recipient)
         .send({ from: accounts[0] });

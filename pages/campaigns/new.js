@@ -19,6 +19,7 @@ class CampaignNew extends Component {
 
     try {
       const accounts = await web3.eth.getAccounts();
+      await ethereum.enable();
       await factory.methods
         .createCampaign(this.state.minimumContribution)
         .send({
