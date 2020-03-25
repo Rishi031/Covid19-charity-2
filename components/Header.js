@@ -5,16 +5,16 @@ import { Link } from '../routes';
 export default () => {
   return (
     <Menu style={{ marginTop: '10px' }}>
-      <Link route="/">
-        <a className="item">CrowdCoin</a>
+      <Link href="https://hackcovid19-nit-rishi135.hub.arcgis.com/">
+        <a className="item">Statistics</a>
       </Link>
 
       <Menu.Menu position="right">
-        <Link route="/">
-          <a className="item">Campaigns</a>
+        <Link href="https://hackcovid19-nits.netlify.com/">
+          <a className="item">Symptoms and Precautions</a>
         </Link>
 
-        <Link route="/campaigns/new">
+        <Link>
           <a className="item">+</a>
         </Link>
       </Menu.Menu>
