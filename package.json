@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "build:deploy": "cross-env NODE_ENV=production webpack"
+    "test":"mocha",
+    "dev": "node server.js",
+    "build": "next build"
   },
   "author": "",
   "license": "ISC",
