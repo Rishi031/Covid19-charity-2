@@ -34,9 +34,9 @@ class CampaignShow extends Component {
     const items = [
       {
         header: manager,
-        meta: 'Address of Manager',
+        meta: 'Address of the organization',
         description:
-          'The manager created this campaign and can create requests to withdraw money',
+          'The manager created this charity and can create requests to withdraw money',
         style: { overflowWrap: 'break-word' }
       },
       {
@@ -55,11 +55,11 @@ class CampaignShow extends Component {
         header: approversCount,
         meta: 'Number of Approvers',
         description:
-          'Number of people who have already donated to this campaign'
+          'Number of people who have already donated to this charity'
       },
       {
         header: web3.utils.fromWei(balance, 'ether'),
-        meta: 'Campaign Balance (ether)',
+        meta: 'Charity Balance (ether)',
         description:
           'The balance is how much money this campaign has left to spend.'
       }
@@ -71,7 +71,7 @@ class CampaignShow extends Component {
   render() {
     return (
       <Layout>
-        <h3>Campaign Show</h3>
+        <h3>Charity Show</h3>
         <Grid>
           <Grid.Row>
             <Grid.Column width={10}>{this.renderCards()}</Grid.Column>

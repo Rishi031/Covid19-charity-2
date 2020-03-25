@@ -17,7 +17,7 @@ class CampaignIndex extends Component {
         header: address,
         description: (
           <Link route={`/campaigns/${address}`}>
-            <a>View Campaign</a>
+            <a>View charity</a>
           </Link>
         ),
         fluid: true
@@ -37,7 +37,7 @@ class CampaignIndex extends Component {
             <a>
               <Button
                 floated="right"
-                content="Create Campaign"
+                content="Register your organization"
                 icon="add circle"
                 primary
               />

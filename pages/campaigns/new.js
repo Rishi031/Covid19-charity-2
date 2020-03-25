@@ -37,11 +37,11 @@ class CampaignNew extends Component {
   render() {
     return (
       <Layout>
-        <h3>Create a Campaign</h3>
+        <h3>Register your organization in the charity</h3>
 
         <Form onSubmit={this.onSubmit} error={!!this.state.errorMessage}>
           <Form.Field>
-            <label>Minimum Contribution</label>
+            <label>Set minimum limit for each donation</label>
             <Input
               label="wei"
               labelPosition="right"
