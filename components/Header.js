@@ -1,23 +1,55 @@
-import React from 'react';
-import { Menu } from 'semantic-ui-react';
+import PropTypes from 'prop-types'
+import React, { Component } from 'react'
+import { Menu } from 'semantic-ui-react'
 import { Link } from '../routes';
 
-export default () => {
-  return (
-    <Menu style={{ marginTop: '10px' }}>
-      <Link href="https://hackcovid19-nit-rishi135.hub.arcgis.com/">
-        <a className="item">Symptoms and Precautions</a>
+const colors = [
+  'teal'
+]
+
+class ExampleMenu extends Component {
+  static propTypes = {
+    color: PropTypes.string,
+  }
+
+  state = { activeItem: 'home' }
+
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+  render() {
+    const { color } = this.props
+    const { activeItem } = this.state
+
+    return (
+    <Menu color={color} inverted widths={3}>
+      <Link route="/">
+        <Menu.Item
+          name='home'
+          active={activeItem === 'home'}
+          onClick={this.handleItemClick}
+        />
       </Link>
 
-      <Menu.Menu position="right">
-        <Link href="https://hackcovid19-nits.netlify.com/">
-          <a className="item">Statistics</a>
-        </Link>
+        <Menu.Item href="https://hackcovid19-nits.netlify.com/"
+          name='Statistics'
+          active={activeItem === 'Statistics'}
+          onClick={this.handleItemClick}
+        />
 
-        <Link route="/">
-          <a className="item">Home</a>
-        </Link>
-      </Menu.Menu>
+        <Menu.Item href="https://hackcovid19-nit-rishi135.hub.arcgis.com/"
+          name='Symptoms and Precautions'
+          active={activeItem === 'Symptoms and Precautions'}
+          onClick={this.handleItemClick}
+        />
     </Menu>
-  );
-};
+    )
+  }
+}
+
+const MenuExampleColoredInvertedMenus = () => {
+  const menus = colors.map((color) => <ExampleMenu color={color} key={color} />)
+
+  return <div>{menus}</div>
+}
+
+export default MenuExampleColoredInvertedMenus

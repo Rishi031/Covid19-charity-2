@@ -14,6 +14,20 @@ export default props => {
       </Head>
 
       <Header />
+      <p style={{color:"blue",fontSize:40}}>
+
+      HackCovid19
+
+      </p>
+      <p>
+
+
+      </p>
+      <p>
+
+
+      </p>
+
       {props.children}
     </Container>
   );
