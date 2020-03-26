@@ -9,7 +9,8 @@ class CampaignNew extends Component {
   state = {
     minimumContribution: '',
     errorMessage: '',
-    loading: false
+    loading: false,
+    text:''
   };
 
   onSubmit = async event => {
@@ -48,6 +49,15 @@ class CampaignNew extends Component {
               value={this.state.minimumContribution}
               onChange={event =>
                 this.setState({ minimumContribution: event.target.value })}
+            />
+          </Form.Field>
+
+          <Form.Field>
+            <label>Who are you?</label>
+            <Input
+              value={this.state.text}
+              onChange={event =>
+                this.setState({ text: event.target.value })}
             />
           </Form.Field>
 
