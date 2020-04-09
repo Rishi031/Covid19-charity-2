@@ -34,7 +34,7 @@ To run the dapp on localhost, please make sure you have metamask extension insta
 4) run "npm install"
 5) run "npm start"
 
-About the app(Also shown in the video):-
+About the app(Also shown in the video):
 
 The first Dashboard page shows the list of open charities which a user can contribute to. He can view the charity and get more information about it.
 An organization can register itself on the network by giving more details about itself and by setting a minimum contribution which they would want from each person. The person who contributes automatically becomes approver.
