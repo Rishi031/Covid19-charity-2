@@ -12,7 +12,7 @@ Workflow:
 There are two components to this app:-
 One is the real time coronavirus statistics which I have visualized using data from John Hopkins API. This app mainly shows the trend and graphs related to statistics of cases in the majorly affected countries in the world.
 
-I have hosted my app here:-
+I have hosted my app here:
 
  https://hackcovid19-nits.netlify.com/
 
