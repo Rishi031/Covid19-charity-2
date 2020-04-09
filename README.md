@@ -1,7 +1,7 @@
 Covid19-charity
 This app was built for the hackCovid19 and managed to win the 2nd place.
 
-Motivation:-
+Motivation:
 
 This app is a blockchain based charity app which also shows the coronavirus statistics, precautions and symptoms.
 
