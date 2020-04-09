@@ -1,5 +1,6 @@
 Covid19-charity
 This app was built for the hackCovid19 and managed to win the 2nd place.
+
 Motivation:-
 
 This app is a blockchain based charity app which also shows the coronavirus statistics, precautions and symptoms.
@@ -40,3 +41,5 @@ An organization can register itself on the network by giving more details about 
 The organization can then make requests to spend the money for the purpose of welfare or other government purposes.
 All the approvers in the network who have contributed to the charity, can see the request and a majority vote is required from all the approvers to be able to execute the transaction.
 This way there is transparency instilled into the system and this ensures that people contribute their money only to legit and real charities.
+
+
