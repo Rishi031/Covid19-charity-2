@@ -1,5 +1,4 @@
-Covid19-charity
-This app was built for the hackCovid19 and managed to win the 2nd place.
+
 
 Motivation:
 
