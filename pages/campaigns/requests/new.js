@@ -3,6 +3,7 @@ import { Form, Button, Message, Input } from 'semantic-ui-react';
 import Campaign from '../../../ethereum/campaign';
 import web3 from '../../../ethereum/web3';
 import { Link, Router } from '../../../routes';
+
 import Layout from '../../../components/Layout';
 
 class RequestNew extends Component {
