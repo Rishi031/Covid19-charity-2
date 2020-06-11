@@ -2,7 +2,7 @@
 
 Motivation:
 
-This hack has been made for the Stratis Hackathon, using the stratis platform. I have written smart contracts in both C# , solidity and have integrated it with a react front end using web3.
+This hack has been made for the Stratis Hackathon, using the stratis platform. I have written smart contracts in both C# , solidity and have integrated it with a react front using the stratis platform and web3.
 
 This app is a blockchain based charity app which also shows the coronavirus statistics, precautions and symptoms.
 
@@ -11,22 +11,14 @@ Due to the rise of Coronavirus, there are a huge number of growing fake charitie
 Workflow:
 
 There are two components to this app:-
-One is the real time coronavirus statistics which I have visualized using data from John Hopkins API. This app mainly shows the trend and graphs related to statistics of cases in the majorly affected countries in the world.
 
-I have hosted my app here:
-
- https://hackcovid19-nits.netlify.com/
-
- I have also hosted a web app on Eris using ARCgis which shows the symptoms and precautions which one has to take to stay safe. I have hosted it in their domain and this requires you to login into Eris to view it:-
+One is the hosted web app on Eris using ARCgis which shows the symptoms and precautions which one has to take to stay safe. I have hosted it in their domain and this requires you to login into Eris to view it:-
 
  https://hackcovid19-nit-rishi135.hub.arcgis.com/
 
- I have integrated these components into the main app which is built on Stratis and Ethereum .
+ I have integrated the above component into the main app which is built on Stratis and Ethereum .
 
-Dapp:-
-
-
-
+Main Dapp:-
 To run the dapp on localhost, please make sure you have metamask extension installed; follow these steps:
 
 1) clone or download zip
