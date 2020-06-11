@@ -2,6 +2,7 @@
 
 Motivation:
 
+This hack has been made for the Stratis Hackathon, using the stratis platform.
 This app is a blockchain based charity app which also shows the coronavirus statistics, precautions and symptoms.
 
 Due to the rise of Coronavirus, there are a huge number of growing fake charities which emerged and which are looting people during these tough times. To address this issue, I have made a blockchain based transparent charity app to ensure people do not get cheated as there is transparency in each and every step.
