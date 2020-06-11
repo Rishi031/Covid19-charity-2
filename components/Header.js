@@ -7,6 +7,7 @@ const colors = [
   'teal'
 ]
 
+
 class ExampleMenu extends Component {
   static propTypes = {
     color: PropTypes.string,
